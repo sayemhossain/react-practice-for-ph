@@ -1,7 +1,10 @@
 .country {
   border: 2px solid black;
   border-radius: 15px;
-  margin: 15px;
   padding: 15px;
   background-color: aquamarine;
+}
+.country img {
+  height: 20vh;
+  border: 2px solid rgb(0, 0, 0);
 }
