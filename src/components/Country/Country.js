@@ -4,10 +4,10 @@ import "./Country.css";
 const Country = (props) => {
   return (
     <div className="country">
-      <h3>{props.name} </h3>
-      <h5>Population: {props.population}</h5>
-      <p>Official Name: {props.officialName}</p>
-      <p>Area: {props.area}</p>
+      <h3>{props.country.name.common} </h3>
+      <h5>Population: {props.country.population}</h5>
+      <p>Official Name: {props.country.officialName}</p>
+      <p>Area: {props.country.area}</p>
     </div>
   );
 };
